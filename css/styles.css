@@ -1,225 +1,90 @@
 body{
-  margin: 0;
-  text-align: center;
-  font-family:"Merriweather",serif;
+  color: #06113C;
 }
-.top-container{
-  background-color: #E4F9F5;
-  padding-top: 10%;
-  position: relative;
-}
-.middle-container{
-  margin-top: 30px;
-  padding-top: 10px;
-}
-.bottom-cloud{
-  position: absolute;
-  left: 20%;
-}
-.top-cloud{
-  position: absolute;
-  right: 20%;
-  top: 8%;
-}
-.skills{
-  margin-top: 50px;
-}
-.skills2{
-  margin-top: 50px;
-}
-.skills3{
-  margin-top: 50px;
-}
-.contact-me{
-  margin-top: 50px;
-  line-height: 3
-}
-.skill-row{
-  text-align: justify;
-  display: inline-block;
-  width:40%;
-  margin:100px auto 100px auto;
-  line-height: 2;
-}
-.skill-row1{
-  display: inline-block;
-  text-align: justify;
-  margin-top: 1px;
-  line-height: 1.3;
-}
-.skill-row2{
-  display: inline-block;
-  text-align: right;
-  line-height: 1.3;
-}
-.skill-row3{
-  display: inline-block;
-  text-align: justify;
-  margin-right: 5%;
-}
-.skill-row4{
-  display: inline-block;
-  text-align: justify;
-  margin-left: 5%;
-}
-.skill-row5{
-  display: inline-block;
-  text-align: justify;
-  margin-left: 5%;
-  width: 35%;
-}
-.skill-row6{
-  display: inline-block;
-  text-align: justify;
-  margin-right: 5%;
-  width: 35%;
-}
-h1{
-  color: #66BFBF;
-  font-size: 5.625rem;
-  margin-top: 50px;
-  margin-bottom: 0;
-  padding-left: inherit;
+.navbar-brand{
   font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  color: #000000;
 }
-h2{
-  color: #66BFBF;
-  font-weight:normal;
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
-}
-h3{
-  color:#11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-.self{
-  line-height: 2;
-  text-align: justify;
-  font-family: 'Montserrat', sans-serif;
-  padding: 0 40px 0 40px;
-  width:40%;
-  margin: auto;
-}
-.computer{
-  border-radius: 100%;
-  margin-left: 10%;
-  width: 25%;
-  height: 50%;
-  float: left;
-}
-.bottom-container{
-  line-height: 3;
-  padding: 20px;
-  background-color: #66BFBF;
-  margin-top: 50px;
-}
-.copyright{
-  color: #EAF6F6;
-  font-size: 0.75rem;
+.navbar-brand:hover{
+  color: #000000;
 }
 a{
-  margin: 30px 30px;
-  color: #21396E;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
+  color: #06113C;
 }
 a:hover{
-  color: #EAF6F6;
+  color: #06113C;
 }
-hr{
-  margin: 100px auto;
-	border-top-style: dotted;
-	border-bottom-style: none;
-	border-left-style: none;
-	border-right-style: none;
-	border-color: lightgrey;
-	border-top-width: 7px;
-	width: 6%;
-	}
-
-.btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  margin: 20px auto;
+.navbar{
+  background-color: #DDDDDD;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
-
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
+.nav-item{
+  padding: 0 18px;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  body{
-    width:95%;
-    margin: 0;
-    text-align: center;
-    font-family:"Merriweather",serif;
-  }
-  .top-cloud{
-    visibility: hidden;
-  }
-  .computer{
-    float: none;
-  }
-  .skill-row3{
-    width: 80% !important;
-    text-align: left;
-    margin-left: 10%;
-  }
-  .skill-row4{
-    width: 80% !important;
-    text-align: left;
-  }
-  .skill-row5{
-    width: 80% !important;
-    text-align: left;
-  }
-  .skill-row6{
-    width: 80% !important;
-    text-align: left;
-    margin-left: 10%;
-  }
-  .contact-me{
-    width: 80% !important;
-    text-align: center;
-    margin-left: 10%;
-  }
-  .top-container{
-    padding-left: 8px;
-    padding-right: 8px;
-    text-align: center;
-    margin-left: 10%;
-  }
-  .middle-container{
-    width: 80% !important;
-    text-align: center;
-    margin-left: 10%;
-  }
-  .bottom-container{
-    visibility:visible;
-    width: 80% !important;
-    text-align: center;
-    margin-left: 10%;
-  }
-  h1{
-    font-size: 4.625rem;
-    text-align: center;
-  }
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  color: #000000;
+}
+.nav-link:hover{
+  color: #000000;
+}
+#title{
+  font-family: "Montserrat";
+  background-color: #DDDDDD;
+}
+.main-container{
+  padding: 12% 12% 10% 12%;
+}
+.second-container{
+  padding: 12% 12% 10% 12%;
+  background-color: #EEEEEE;
+}
+.third-container{
+  padding: 6% 12% 10% 12%;
+  background-color: #DDDDDD;
+}
+.fourth-container{
+  padding: 6% 12% 10% 12%;
+  background-color: #EEEEEE;
+}
+.fifth-container{
+  padding: 6% 12% 10% 12%;
+  background-color: #DDDDDD;
+}
+.contact{
+  padding: 6% 12% 10% 12%;
+  background-color: #EEEEEE;
+}
+.footer{
+  padding-left: 70%;
+  background-color: #DDDDDD;
+}
+.career{
+  padding-bottom: 5%;
+  line-height: 10px;
+}
+.awe-font{
+  align-items: center;
+}
+h1{
+  font-weight: bold;
+  color: #06113C;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.title-img-div{
+  padding: 0 5%;
+}
+.title-image{
+  transform: rotate(25deg);
+}
+.btn-outline{
+  font-family: "Ubuntu";
+  color: #06113C;
+}
+.btn-outline:hover{
+  background-color: #FF8C32;
 }
