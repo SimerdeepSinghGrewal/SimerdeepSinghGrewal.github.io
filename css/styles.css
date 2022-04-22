@@ -9,11 +9,15 @@ body{
 .navbar-brand:hover{
   color: #000000;
 }
+.main-img{
+  padding: 3%;
+}
 a{
   color: #06113C;
 }
 a:hover{
   color: #06113C;
+  text-decoration: none;
 }
 .navbar{
   background-color: #DDDDDD;
@@ -38,38 +42,44 @@ a:hover{
 .main-container{
   padding: 12% 12% 10% 12%;
 }
-.second-container{
-  padding: 12% 12% 10% 12%;
+.first-container{
+  padding: 6% 12% 10% 12%;
   background-color: #EEEEEE;
+}
+.second-container{
+  padding: 12% 8% 10% 8%;
+  background-color: #DDDDDD;
 }
 .third-container{
   padding: 6% 12% 10% 12%;
-  background-color: #DDDDDD;
+  background-color: #EEEEEE;
 }
 .fourth-container{
   padding: 6% 12% 10% 12%;
-  background-color: #EEEEEE;
+  background-color: #DDDDDD;
 }
 .fifth-container{
   padding: 6% 12% 10% 12%;
-  background-color: #DDDDDD;
+  background-color: #EEEEEE;
 }
 .contact{
   padding: 6% 12% 10% 12%;
-  background-color: #EEEEEE;
+  background-color: #DDDDDD;
 }
 .footer{
   padding-left: 70%;
-  background-color: #DDDDDD;
+  background-color: #EEEEEE;
 }
 .career{
   padding-bottom: 5%;
   line-height: 10px;
 }
 .awe-font{
-  align-items: center;
+  text-align: justify;
+  text-align-last: center;
+  padding: 5%;
 }
-h1{
+.main-line{
   font-weight: bold;
   color: #06113C;
   font-size: 3rem;
@@ -87,4 +97,14 @@ h1{
 }
 .btn-outline:hover{
   background-color: #FF8C32;
+}
+.fa-3x:hover{
+  color: #FF8C32;
+}
+.carousel-caption{
+  color: #06113C;
+  padding-bottom: 50px ;
+}
+.carousel-inner{
+  height: 700px;
 }
