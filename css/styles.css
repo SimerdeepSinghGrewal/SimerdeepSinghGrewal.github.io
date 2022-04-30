@@ -105,6 +105,15 @@ a:hover{
   color: #06113C;
   padding-bottom: 50px ;
 }
-.carousel-inner{
-  height: 700px;
+.carousel-item{
+  height: 300px;
+}
+.card{
+  align-items: center;
+}
+.main-banner{
+  z-index: 1;
+}
+.main-img{
+  z-index: 0;
 }
