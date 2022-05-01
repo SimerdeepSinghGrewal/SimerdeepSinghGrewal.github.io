@@ -115,5 +115,6 @@ a:hover{
   z-index: 1;
 }
 .main-img{
+  position: relative;
   z-index: 0;
 }
