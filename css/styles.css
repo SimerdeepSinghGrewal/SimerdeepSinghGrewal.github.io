@@ -113,8 +113,8 @@ a:hover{
 }
 .main-banner{
   z-index: 1;
+  position: relative;
 }
 .main-img{
   position: relative;
-  z-index: 0;
 }
