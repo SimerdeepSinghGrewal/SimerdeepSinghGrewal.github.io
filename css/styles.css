@@ -62,8 +62,8 @@ a:hover{
   background-color: #DDDDDD;
 }
 .footer{
-  padding-left: 70%;
   background-color: #EEEEEE;
+  text-align: center;
 }
 .career{
   padding-bottom: 5%;
@@ -117,8 +117,9 @@ a:hover{
   .main-banner{
     text-align:center;
   }
-  .main-img{
-    position: fixed;
+  .title-image{
+    transform: rotate(25deg);
+    position: absolute;
   }
 }
 @media (max-width:576px){
