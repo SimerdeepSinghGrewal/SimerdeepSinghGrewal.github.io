@@ -9,9 +9,6 @@ body{
 .navbar-brand:hover{
   color: #000000;
 }
-.main-img{
-  padding: 3%;
-}
 a{
   color: #06113C;
 }
@@ -20,9 +17,7 @@ a:hover{
   text-decoration: none;
 }
 .navbar{
-  background-color: #DDDDDD;
   opacity: 0.5;
-  filter: alpha(opacity=50);
 }
 .nav-item{
   padding: 0 18px;
@@ -90,6 +85,7 @@ a:hover{
 }
 .title-image{
   transform: rotate(25deg);
+  position: relative;
 }
 .btn-outline{
   font-family: "Ubuntu";
@@ -115,6 +111,19 @@ a:hover{
   z-index: 1;
   position: relative;
 }
-.main-img{
-  position: relative;
+
+@media (max-width:1024px){
+
+  .main-banner{
+    text-align:center;
+  }
+  .main-img{
+    position: fixed;
+  }
+}
+@media (max-width:576px){
+  .main-img{
+    position: fixed;
+    z-index: -1;
+  }
 }
